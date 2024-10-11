@@ -6,12 +6,9 @@ body {
 }
 
 header {
-    background-color: #5a3d7b;
+    background-color: #13293D;
     color: #fff;
     padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header .logo {
@@ -29,16 +26,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-}
-
-.auth-buttons button {
-    background-color: #a374c1;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    margin-left: 10px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 .hero {
@@ -81,59 +68,13 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.artwork-section, .recent-search {
+.artwork-section {
     margin: 20px;
 }
 
-.artwork-section, .recent-search h2 {
+.artwork-section h2 {
     font-size: 28px;
     color: #5a3d7b;
-}
-
-.artwork-gallery {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.artwork-gallery img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.recent-search ul {
-    list-style: none;
-    padding: 0;
-}
-
-.recent-search ul li {
-    margin-bottom: 10px;
-}
-
-.recent-search ul li a {
-    text-decoration: none;
-    color: #5a3d7b;
-    font-weight: bold;
-    background-color: #e4d3ef;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 15px;
-}
-
-.extra-links {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.extra-links .link-box {
-    background-color: #e4d3ef;
-    color: #5a3d7b;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    flex: 1;
-    font-weight: bold;
 }
 
 .career-opportunities {
@@ -144,7 +85,7 @@ nav ul li a {
 }
 
 .career-opportunities h2 {
-    color: #333;
+    color: #5a3d7b;
 }
 
 .career-opportunities ul {
@@ -153,7 +94,7 @@ nav ul li a {
 }
 
 .career-opportunities li {
-    background: #e7f3ff;
+    background: #7a5f91;
     margin: 10px 0;
     padding: 10px;
     border-radius: 4px;
@@ -166,16 +107,18 @@ nav ul li a {
 
 .giphy-embed {
     display: block;
-    margin: 20px auto; /* Centraliza o GIF */
-    border: 2px solid #5a3d7b; /* Borda de cor da sua escolha */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efeito */
+    margin: 20px auto;
+    border: 2px solid #5a3d7b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 .contact-section {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
+    text-align: center;
 }
 
 .contact-section h2 {
@@ -185,6 +128,7 @@ nav ul li a {
 .contact-section ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .contact-section ul li {
@@ -203,4 +147,10 @@ nav ul li a {
 
 .contact-section ul li a:hover {
     background-color: #d0e1ff;
+}
+
+.Contato1 {
+    background-color: #a374c1;
+    padding: 10px;
+    border-radius: 5px;
 }
